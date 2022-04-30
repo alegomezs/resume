@@ -1,0 +1,39 @@
+section {
+  &.contact-form {
+    background-color: #ff6c39;
+    margin-bottom: 0;
+    padding: 50px 0;
+
+    label {
+      &.MuiInputLabel-root {
+        font-weight: bold;
+      }
+    }
+
+    h2 {
+      color: white;
+      margin-bottom: 50px;
+    }
+
+    .MuiInput-root {
+      width: 100%;
+      max-width: 300px;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.164);
+      padding: 5px;
+      &:before {
+        border-bottom: transparent;
+      }
+      &:hover {
+        border-bottom: #ffffff34;
+      }
+    }
+
+    .MuiButton-root {
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
